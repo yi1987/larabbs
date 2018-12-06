@@ -19,6 +19,7 @@ body {
     border-top: 4px solid #00b5ad;
     margin-bottom: 40px;
     margin-top: 0px;
+    
 }
 /* Sticky footer styles */
 html {
@@ -59,5 +60,36 @@ body {
         margin-bottom: 0px;
         margin-top: 10px;
         cursor: pointer;
+    }
+}
+
+/* Topic Index Page */
+.topics-index-page, .categories-show-page {
+    .topic-list {
+        .nav > li > a {
+            position: relative;
+            display: block;
+            padding: 5px 14px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #444444;
+        }
+        .meta {
+            font-size:0.9em;
+            color: #b3b3b3;
+            a {
+               color: #b3b3b3;
+            }
+        }
+        .badge {
+            background-color: #d8d8d8;
+        }
+        hr {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            border: 0;
+            border-top: 1px solid #dcebf5;
+        }
     }
 }
